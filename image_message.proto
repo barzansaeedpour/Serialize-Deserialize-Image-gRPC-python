@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ImageMessage {
+    bytes image_data = 1;
+}
